@@ -12,7 +12,7 @@ all: $(NAME)
 $(NAME): $(COLEEN)
 
 $(COLEEN): $(COLEEN_OBJS)
-	$(CC) $(CFLAGS) -o $(COLEEN) $(COLEEN_OBJS)
+	$(CC) -o $(COLEEN) $(COLEEN_OBJS)
 
 .PHONY:clean
 clean:
